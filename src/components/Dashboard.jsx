@@ -22,7 +22,7 @@ const Dashboard = ({ onSelectStation }) => {
   };
 
   const filterOptions = [
-    { value: 'all', label: 'All Stations', color: 'bg-gray-500' },
+    { value: 'all', label: 'All', color: 'bg-gray-500' },
     { value: 'safe', label: 'Safe', color: 'bg-green-500' },
     { value: 'warning', label: 'Warning', color: 'bg-yellow-500' },
     { value: 'critical', label: 'Critical', color: 'bg-red-500' }

@@ -267,15 +267,15 @@ const PlanningTools = () => {
             <Globe className="w-5 h-5 mr-2 text-blue-500 animate-spin" style={{animationDuration: '3s'}} />
             Water Trading Opportunities
           </h3>
-          <div className="flex items-center space-x-2">
-            <div className="relative">
+          <div className="flex items-center space-x-2 ml-4">
+            <div className="relative w-fit">
               <Search className="w-4 h-4 absolute left-2 top-2.5 text-gray-400" />
               <input 
                 type="text" 
                 placeholder="Search regions..."
                 value={searchTerm}
                 onChange={(e) => setSearchTerm(e.target.value)}
-                className="pl-8 pr-3 py-2 border rounded-lg text-sm focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                className="w-full pl-8 pr-3 py-2 border rounded-lg text-sm focus:ring-2 focus:ring-blue-500 focus:border-transparent"
               />
             </div>
           </div>
